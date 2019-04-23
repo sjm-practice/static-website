@@ -1,3 +1,3 @@
-# React-Static - Basic Template
+# static-website
 
-To use this template, run `react-static create` and use the `basic` template.
+A test run on creating AVO website using react-static.
