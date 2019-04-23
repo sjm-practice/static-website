@@ -1,3 +1,5 @@
-# React-Static - Basic Template
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bc9fc59f-aac4-447f-8f02-ac001d64ce8b/deploy-status)](https://app.netlify.com/sites/avo-test-static-site/deploys)
 
-To use this template, run `react-static create` and use the `basic` template.
+# static-website
+
+A test run on creating AVO website using react-static.

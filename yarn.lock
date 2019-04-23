@@ -6546,11 +6546,6 @@ react-static-plugin-reach-router@^7.0.0:
   resolved "https://registry.yarnpkg.com/react-static-plugin-reach-router/-/react-static-plugin-reach-router-7.0.8.tgz#39f0c9f5857983c59d2b9fb25c75f51d74c2d044"
   integrity sha512-2Da7rJSBtJYq0SR/gI8dxAsagNFJuwrCTzRmgGdBrCN2dW7Cv8T++DMZ2q0IK7gQkMmOYGq9cCLUeCOQ5K0M9A==
 
-react-static-plugin-sitemap@^7.0.0:
-  version "7.0.8"
-  resolved "https://registry.yarnpkg.com/react-static-plugin-sitemap/-/react-static-plugin-sitemap-7.0.8.tgz#ec1ebea9e69cf490ce2ab78cb05033cbd14cb992"
-  integrity sha512-2JlXyXVK4iQ3cu1wODZu9Bw3UXyTVwEyP3+Dv/7zC/J2tTFf1hvn9DgJIHmhXhXqEZeKq3vuOd1qe6r7qWiGtA==
-
 react-static-plugin-source-filesystem@^7.0.0:
   version "7.0.8"
   resolved "https://registry.yarnpkg.com/react-static-plugin-source-filesystem/-/react-static-plugin-source-filesystem-7.0.8.tgz#c0027412e8bb272723890db3ff02efad453ded92"
