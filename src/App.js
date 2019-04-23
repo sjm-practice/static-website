@@ -1,7 +1,7 @@
 import React from "react";
 import { Root, Routes } from "react-static";
 import { Router } from "@reach/router";
-import { GlobalStyle } from "./styles";
+import { GlobalStyle } from "./globalStyle";
 import NavBar from "./components/NavBar";
 
 function App() {
