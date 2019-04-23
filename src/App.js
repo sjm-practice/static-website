@@ -1,17 +1,14 @@
 import React from "react";
 import { Root, Routes } from "react-static";
-//
-import { Link, Router } from "components/Router";
+import { Router } from "@reach/router";
+import NavBar from "./components/NavBar";
 
 import "./app.css";
 
 function App() {
   return (
     <Root>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-      </nav>
+      <NavBar />
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>
           <Router>
