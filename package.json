@@ -5,6 +5,9 @@
     "start": "react-static start",
     "stage": "react-static build --staging",
     "lint": "eslint . --ext .js,.jsx",
+    "test": "yarn unit-test",
+    "unit-test": "jest -c .jest-config.json --verbose false",
+    "unit-test-w": "jest -c .jest-config.json --watch",
     "build": "react-static build",
     "analyze": "react-static build --analyze",
     "serve": "serve dist -p 3000",
@@ -34,6 +37,7 @@
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "7.x",
+    "jest": "^24.7.1",
     "prettier": "^1.17.0",
     "serve": "10.1.2"
   },
