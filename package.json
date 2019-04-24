@@ -5,9 +5,13 @@
     "start": "react-static start",
     "stage": "react-static build --staging",
     "lint": "eslint . --ext .js,.jsx",
+    "test": "yarn unit-test",
+    "unit-test": "jest -c .jest-config.json --verbose false",
+    "unit-test-w": "jest -c .jest-config.json --watch",
     "build": "react-static build",
     "analyze": "react-static build --analyze",
-    "serve": "serve dist -p 3000"
+    "serve": "serve dist -p 3000",
+    "storybook": "start-storybook"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
@@ -20,7 +24,10 @@
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@storybook/react": "^5.0.10",
     "babel-eslint": "9.x",
+    "babel-loader": "^8.0.5",
     "eslint": "5.x",
     "eslint-config-prettier": "^4.1.0",
     "eslint-config-react-app": "^3.0.8",
@@ -30,7 +37,9 @@
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "7.x",
+    "jest": "^24.7.1",
     "prettier": "^1.17.0",
+    "react-test-renderer": "^16.8.6",
     "serve": "10.1.2"
   },
   "resolutions": {

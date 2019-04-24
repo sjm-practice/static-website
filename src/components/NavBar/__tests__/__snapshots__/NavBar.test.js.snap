@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> should render and match snapshot 1`] = `
+<nav
+  className="sc-bdVaJa dwDnSv"
+>
+  <a
+    aria-current="page"
+    href="/"
+    onClick={[Function]}
+  >
+    Home
+  </a>
+  <a
+    href="/about"
+    onClick={[Function]}
+  >
+    About
+  </a>
+</nav>
+`;
