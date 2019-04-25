@@ -1,5 +1,5 @@
 {
-  "name": "react-static-example-basic",
+  "name": "avo-test-static-website",
   "private": true,
   "scripts": {
     "start": "react-static start",
@@ -19,9 +19,7 @@
     "react-dom": "^16.8.2",
     "react-static": "^7.0.9",
     "react-static-plugin-reach-router": "^7.0.0",
-    "react-static-plugin-source-filesystem": "^7.0.0",
-    "react-static-plugin-styled-components": "^7.0.8",
-    "styled-components": "^4.2.0"
+    "react-static-plugin-source-filesystem": "^7.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",

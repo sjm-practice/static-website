@@ -1,7 +1,9 @@
-import styled from "styled-components";
+const styles = () => ({
+  container: {
+    width: "100%",
+    height: "300px",
+    background: "darkgreen",
+  },
+});
 
-export const Container = styled.nav`
-  width: 100%;
-  height: 300px;
-  background: darkgreen;
-`;
+export default styles;

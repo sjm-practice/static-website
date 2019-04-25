@@ -5,3 +5,12 @@ AVO test static website can be viewed [here](https://avo-test-static-site.netlif
 # static-website
 
 A test run on creating AVO website using react-static.
+
+## Tech Notes
+### Components
+* template component
+### Styling
+* use iconify simple-line-icons for react for icons in Features section
+  * https://iconify.design/icon-sets/
+  * https://github.com/iconify-design/iconify-react
+* If needed, there is also fontawesome for react
