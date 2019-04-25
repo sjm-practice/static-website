@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render and match snapshot 1`] = `
+<nav
+  className="sc-bdVaJa kYIWSu"
+  id="Header"
+>
+  Header
+</nav>
+`;

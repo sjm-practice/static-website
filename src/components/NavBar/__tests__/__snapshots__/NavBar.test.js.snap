@@ -12,10 +12,9 @@ exports[`<NavBar /> should render and match snapshot 1`] = `
     Home
   </a>
   <a
-    href="/about"
-    onClick={[Function]}
+    href="https://avoinsights.com/dashboard/index.php"
   >
-    About
+    Dashboard
   </a>
 </nav>
 `;
