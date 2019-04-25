@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <Container>
       <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
+      <a href="https://avoinsights.com/dashboard/index.php">Dashboard</a>
     </Container>
   );
 };
