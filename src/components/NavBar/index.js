@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "@reach/router";
-import { NavBarContainer } from "./styles";
+import { Container } from "./styles";
 
 const NavBar = () => {
   return (
-    <NavBarContainer>
+    <Container>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
-    </NavBarContainer>
+    </Container>
   );
 };
 
