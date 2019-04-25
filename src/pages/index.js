@@ -1,7 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Header from "../components/Header";
+import Features from "../components/Features";
 
 export default () => (
-  <div style={{ textAlign: "center" }}>
-    <h1>AVO Website</h1>
-  </div>
+  <Fragment>
+    <Header />
+    <Features />
+  </Fragment>
 );

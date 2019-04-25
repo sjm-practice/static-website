@@ -5,7 +5,7 @@ exports[`<NavBar /> should render and match snapshot 1`] = `
   className="NavBar-root-1"
 >
   <header
-    className="MuiPaper-root-20 MuiPaper-elevation4-26 MuiAppBar-root-11 MuiAppBar-positionStatic-15 MuiAppBar-colorPrimary-18"
+    className="MuiPaper-root-20 MuiPaper-elevation4-26 MuiAppBar-root-11 MuiAppBar-positionFixed-12 MuiAppBar-colorPrimary-18 mui-fixed"
   >
     <div
       className="MuiToolbar-root-47 MuiToolbar-regular-49 MuiToolbar-gutters-48"
