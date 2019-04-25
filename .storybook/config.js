@@ -1,17 +1,17 @@
 import { configure, addDecorator } from "@storybook/react";
 import React, { Fragment } from "react";
-// import { GlobalStyle } from "../src/globalStyle";
+import CssBaseline from "@material-ui/core/CssBaseline";
 
-// function withGlobalStyle(storyFn) {
-//   return (
-//     <Fragment>
-//       <GlobalStyle />
-//       {storyFn()}
-//     </Fragment>
-//   );
-// }
+function withMaterialUi(storyFn) {
+  return (
+    <Fragment>
+      <CssBaseline />
+      {storyFn()}
+    </Fragment>
+  );
+}
 
-// addDecorator(withGlobalStyle);
+addDecorator(withMaterialUi);
 
 const req = require.context("../src", true, /__tests__\/.*.stories.jsx?/);
 

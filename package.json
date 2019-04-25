@@ -14,10 +14,15 @@
     "storybook": "start-storybook"
   },
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
     "@reach/router": "^1.2.1",
+    "prop-types": "^15.7.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
+    "react-jss": "^8.6.1",
     "react-static": "^7.0.9",
+    "react-static-plugin-jss": "^7.0.10",
     "react-static-plugin-reach-router": "^7.0.0",
     "react-static-plugin-source-filesystem": "^7.0.0"
   },
@@ -38,7 +43,8 @@
     "jest": "^24.7.1",
     "prettier": "^1.17.0",
     "react-test-renderer": "^16.8.6",
-    "serve": "10.1.2"
+    "serve": "10.1.2",
+    "storybook-addon-material-ui": "^0.9.0-alpha.18"
   },
   "resolutions": {
     "react-static/webpack-dev-server": "~3.1.10"
