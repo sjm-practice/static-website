@@ -13,7 +13,7 @@ function withGlobalStyle(storyFn) {
 
 addDecorator(withGlobalStyle);
 
-const req = require.context("../src", true, /__stories__\/.*.stories.jsx?/);
+const req = require.context("../src", true, /__tests__\/.*.stories.jsx?/);
 
 function loadStories() {
   req.keys().forEach((filename) => req(filename));
