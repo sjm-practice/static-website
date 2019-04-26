@@ -17,7 +17,7 @@ function withMaterialUi(storyFn) {
 addParameters({
   backgrounds: [
     { name: 'dark green', value: 'darkgreen' },
-    { name: "Light Steel Blue", value: "lightsteelblue" },
+    { name: "light steel blue", value: "lightsteelblue" },
   ],
   viewport: { viewports: INITIAL_VIEWPORTS },
 });
