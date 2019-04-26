@@ -1,4 +1,4 @@
-import { configure, addDecorator } from "@storybook/react";
+import { configure, addDecorator, addParameters } from "@storybook/react";
 import React, { Fragment } from "react";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
@@ -12,6 +12,12 @@ function withMaterialUi(storyFn) {
 }
 
 addDecorator(withMaterialUi);
+
+addParameters({
+  backgrounds: [
+    { name: 'dark green', value: 'darkgreen' },
+  ],
+});
 
 const req = require.context("../src", true, /__tests__\/.*.stories.jsx?/);
 
