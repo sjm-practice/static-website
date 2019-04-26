@@ -92,15 +92,17 @@ class NavBar extends Component {
 
     return (
       <div className={classes.root}>
-        <AppBar position="fixed">
+        <AppBar position="fixed" className={classes.appBar}>
           <Toolbar>
             <Link to="/">
               <img className={classes.logo} src="images/avoLogo.png" alt="Logo" />
             </Link>
             <div className={classes.grow} />
             <div className={classes.sectionDesktop}>
-              <a href="#Features">Features</a>
-              <a href="https://avoinsights.com/dashboard/index.php">Dashboard</a>
+              <div className={classes.desktopLinks}>
+                <a href="#Features">Features</a>
+                <a href="https://avoinsights.com/dashboard/index.php">Dashboard</a>
+              </div>
             </div>
             <div className={classes.sectionMobile}>
               <IconButton

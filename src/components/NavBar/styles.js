@@ -2,6 +2,10 @@ const styles = theme => ({
   root: {
     width: "100%",
   },
+  appBar: {
+    background: "transparent",
+    boxShadow: "none",
+  },
   grow: {
     flexGrow: 1,
   },
@@ -17,6 +21,15 @@ const styles = theme => ({
     display: "none",
     [theme.breakpoints.up("md")]: {
       display: "flex",
+    },
+  },
+  desktopLinks: {
+    "& a": {
+      padding: "0px 5px",
+      textDecoration: "none",
+    },
+    "& a:hover": {
+      textDecoration: "underline",
     },
   },
   sectionMobile: {
