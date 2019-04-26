@@ -29,6 +29,7 @@
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@storybook/addon-backgrounds": "^5.0.10",
+    "@storybook/addon-viewport": "^5.0.10",
     "@storybook/react": "^5.0.10",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",

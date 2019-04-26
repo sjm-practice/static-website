@@ -1,5 +1,6 @@
 import { configure, addDecorator, addParameters } from "@storybook/react";
 import React, { Fragment } from "react";
+import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
 function withMaterialUi(storyFn) {
@@ -11,12 +12,14 @@ function withMaterialUi(storyFn) {
   );
 }
 
-addDecorator(withMaterialUi);
+// addDecorator(withMaterialUi);
 
 addParameters({
   backgrounds: [
     { name: 'dark green', value: 'darkgreen' },
+    { name: "Light Steel Blue", value: "lightsteelblue" },
   ],
+  viewport: { viewports: INITIAL_VIEWPORTS },
 });
 
 const req = require.context("../src", true, /__tests__\/.*.stories.jsx?/);
