@@ -8,9 +8,11 @@ A test run on creating AVO website using react-static.
 
 ## Tech Notes
 ### Components
-* template component
+* TODO template component
 ### Styling
 * use iconify simple-line-icons for react for icons in Features section
   * https://iconify.design/icon-sets/
   * https://github.com/iconify-design/iconify-react
 * If needed, there is also fontawesome for react
+### Testing
+* moved jest config settings from .jest-config.json to package.json to better support the Jest VS Code plugin (prevented errors showing up in Problem console, didn't pick up test regex and was running stories as tests)

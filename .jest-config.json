@@ -1,9 +1,0 @@
-{
-  "verbose": true,
-  "clearMocks": true,
-  "testPathIgnorePatterns": [
-    "/node_modules/",
-    "/public/"
-  ],
-  "testRegex": "/__tests__/.*\\.(test|spec)\\.jsx?$"
-}

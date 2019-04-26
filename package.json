@@ -6,8 +6,8 @@
     "stage": "react-static build --staging",
     "lint": "eslint . --ext .js,.jsx",
     "test": "yarn unit-test",
-    "unit-test": "jest -c .jest-config.json --verbose false",
-    "unit-test-w": "jest -c .jest-config.json --watch",
+    "unit-test": "jest --verbose false",
+    "unit-test-w": "jest --watch",
     "build": "react-static build",
     "analyze": "react-static build --analyze",
     "serve": "serve dist -p 3000",
@@ -46,5 +46,14 @@
   },
   "resolutions": {
     "react-static/webpack-dev-server": "~3.1.10"
+  },
+  "jest": {
+    "verbose": true,
+    "clearMocks": true,
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/public/"
+    ],
+    "testRegex": "/__tests__/.*\\.(test|spec)\\.jsx?$"
   }
 }
