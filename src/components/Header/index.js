@@ -5,11 +5,7 @@ import { withStyles } from "@material-ui/core/styles";
 import styles from "./styles";
 
 const Header = ({ classes }) => {
-  return (
-    <div id="Header" className={classes.container}>
-      <Typography variant="h5">Header</Typography>
-    </div>
-  );
+  return <div id="Header" className={classes.container} />;
 };
 
 Header.propTypes = {

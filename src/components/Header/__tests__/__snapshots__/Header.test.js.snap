@@ -4,11 +4,5 @@ exports[`<Header /> should render and match snapshot 1`] = `
 <div
   className="Header-container-1"
   id="Header"
->
-  <h5
-    className="MuiTypography-root-2 MuiTypography-h5-18"
-  >
-    Header
-  </h5>
-</div>
+/>
 `;
