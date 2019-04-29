@@ -99,11 +99,25 @@ class NavBar extends Component {
             <div className={classes.grow} />
             <div className={classes.sectionDesktop}>
               <div className={classes.desktopLinks}>
-                <a href="#Features">Features</a>
-                <a href="#Demo">Demo</a>
-                <a href="#News">News</a>
-                <a href="#Contact">Contact</a>
-                <a href="https://avoinsights.com/dashboard/index.php">Dashboard</a>
+                <nav>
+                  <ul>
+                    <li>
+                      <a href="#Features">Features</a>
+                    </li>
+                    <li>
+                      <a href="#Demo">Demo</a>
+                    </li>
+                    <li>
+                      <a href="#News">News</a>
+                    </li>
+                    <li>
+                      <a href="#Contact">Contact</a>
+                    </li>
+                    <li>
+                      <a href="https://avoinsights.com/dashboard/index.php">Dashboard</a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
             <div className={classes.sectionMobile}>
