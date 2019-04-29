@@ -4,7 +4,6 @@ import { Link } from "@reach/router";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
-import Typography from "@material-ui/core/Typography";
 import Badge from "@material-ui/core/Badge";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
@@ -101,6 +100,9 @@ class NavBar extends Component {
             <div className={classes.sectionDesktop}>
               <div className={classes.desktopLinks}>
                 <a href="#Features">Features</a>
+                <a href="#Demo">Demo</a>
+                <a href="#News">News</a>
+                <a href="#Contact">Contact</a>
                 <a href="https://avoinsights.com/dashboard/index.php">Dashboard</a>
               </div>
             </div>

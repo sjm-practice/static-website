@@ -25,7 +25,7 @@ const styles = theme => ({
   },
   desktopLinks: {
     "& a": {
-      padding: "0px 5px",
+      padding: "0 0.5rem",
       textDecoration: "none",
     },
     "& a:hover": {
