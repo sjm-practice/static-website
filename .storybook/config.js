@@ -1,19 +1,28 @@
-import { configure, addDecorator } from "@storybook/react";
+import { configure, addDecorator, addParameters } from "@storybook/react";
 import React, { Fragment } from "react";
-import { GlobalStyle } from "../src/globalStyle";
+import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
+import CssBaseline from "@material-ui/core/CssBaseline";
 
-function withGlobalStyle(storyFn) {
+function withMaterialUi(storyFn) {
   return (
     <Fragment>
-      <GlobalStyle />
+      <CssBaseline />
       {storyFn()}
     </Fragment>
   );
 }
 
-addDecorator(withGlobalStyle);
+// addDecorator(withMaterialUi);
 
-const req = require.context("../src", true, /__stories__\/.*.stories.jsx?/);
+addParameters({
+  backgrounds: [
+    { name: 'dark green', value: 'darkgreen' },
+    { name: "light steel blue", value: "lightsteelblue" },
+  ],
+  viewport: { viewports: INITIAL_VIEWPORTS },
+});
+
+const req = require.context("../src", true, /__tests__\/.*.stories.jsx?/);
 
 function loadStories() {
   req.keys().forEach((filename) => req(filename));

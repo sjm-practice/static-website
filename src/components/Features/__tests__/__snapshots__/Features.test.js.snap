@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Features /> should render and match snapshot 1`] = `
+<div
+  className="Features-container-1"
+  id="Features"
+>
+  <h5
+    className="MuiTypography-root-2 MuiTypography-h5-18"
+  >
+    Features
+  </h5>
+</div>
+`;

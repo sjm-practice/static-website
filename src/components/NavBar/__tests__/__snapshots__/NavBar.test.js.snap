@@ -1,21 +1,123 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<NavBar /> should render and match snapshot 1`] = `
-<nav
-  className="sc-bdVaJa dwDnSv"
+<div
+  className="NavBar-root-1"
 >
-  <a
-    aria-current="page"
-    href="/"
-    onClick={[Function]}
+  <header
+    className="MuiPaper-root-18 MuiPaper-elevation4-24 MuiAppBar-root-9 MuiAppBar-positionFixed-10 MuiAppBar-colorPrimary-16 mui-fixed NavBar-appBar-2"
   >
-    Home
-  </a>
-  <a
-    href="/about"
-    onClick={[Function]}
-  >
-    About
-  </a>
-</nav>
+    <div
+      className="MuiToolbar-root-45 MuiToolbar-regular-47 MuiToolbar-gutters-46"
+    >
+      <a
+        aria-current="page"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="Logo"
+          className="NavBar-logo-4"
+          src="images/avoLogo.png"
+        />
+      </a>
+      <div
+        className="NavBar-grow-3"
+      />
+      <div
+        className="NavBar-sectionDesktop-6"
+      >
+        <div
+          className="NavBar-desktopLinks-7"
+        >
+          <nav>
+            <ul>
+              <li>
+                <a
+                  href="#Features"
+                >
+                  Features
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#Demo"
+                >
+                  Demo
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#News"
+                >
+                  News
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#Contact"
+                >
+                  Contact
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://avoinsights.com/dashboard/index.php"
+                >
+                  Dashboard
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div
+        className="NavBar-sectionMobile-8"
+      >
+        <button
+          aria-haspopup="true"
+          className="MuiButtonBase-root-55 MuiIconButton-root-49 MuiIconButton-colorInherit-50"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label-54"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-58"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root-71"
+          />
+        </button>
+      </div>
+    </div>
+  </header>
+</div>
 `;
